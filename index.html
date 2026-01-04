@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE VOTING SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Container">
+        <h1>ONLINE VOTING SYSTEM</h1>
+        <div class="candidate">
+            <h2>Yashika</h2>
+            <button onclick="VoteYashika()">Vote</button>
+            <p>Votes:<span id="YashikaVotes"></span></p>
+        </div>
+        <div class="candidate">
+            <h2>Feha</h2>
+            <button onclick="VoteFeha()">Vote</button>
+            <p>Votes:<span id="FehaVotes"></span></p>
+        </div>
+        <button class="result-btn" onclick="showResult()"></button>
+        <h3 id="result"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
